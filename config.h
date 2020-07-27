@@ -9,8 +9,8 @@ static const char *voldowncmd[] = { "changeVolume", "-q", "set", "Master", "5%-"
 static const char *volupcmd[] = { "changeVolume", "2dB+", "unmute", NULL };
 static const char *voldowncmd[] = { "changeVolume", "2dB-", "unmute",  NULL };*/
 
-static const char *brupcmd[] = { "changeBrightness", "-inc", "2", NULL };
-static const char *brdowncmd[] = { "changeBrightness", "-dec", "2", NULL };
+static const char *brupcmd[] = { "changeBrightness", "-inc", "5", NULL };
+static const char *brdowncmd[] = { "changeBrightness", "-dec", "5", NULL };
 
 
 /* appearance */
@@ -46,7 +46,7 @@ static const Rule rules[] = {
 };
 
 /* layout(s) */
-static const float mfact     = 0.55; /* factor of master area size [0.05..0.95] */
+static const float mfact     = 0.6; /* factor of master area size [0.05..0.95] */
 static const int nmaster     = 1;    /* number of clients in master area */
 static const int resizehints = 0;    /* 1 means respect size hints in tiled resizals */
 
