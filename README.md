@@ -6,7 +6,6 @@ personal build of dwm
  - attach-aside
  - centered-master and fibonacci (from ru_gaps for proper padding)
  - centered window name
- - autostart
  
  - actual fullscreen
  - restartsig
