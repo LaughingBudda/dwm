@@ -9,8 +9,8 @@ static const char *voldowncmd[] = { "changeVolume", "-q", "set", "Master", "5%-"
 static const char *volupcmd[] = { "changeVolume", "2dB+", "unmute", NULL };
 static const char *voldowncmd[] = { "changeVolume", "2dB-", "unmute",  NULL };*/
 
-static const char *brupcmd[] = { "changeBrightness", "-inc", "5", NULL };
-static const char *brdowncmd[] = { "changeBrightness", "-dec", "5", NULL };
+static const char *brupcmd[] = { "changeBrightness", "-A", "5", NULL };
+static const char *brdowncmd[] = { "changeBrightness", "-U", "5", NULL };
 
 
 /* appearance */
